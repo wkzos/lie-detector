@@ -1,10 +1,36 @@
-.hidden {
-  display: none;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 50px;
 }
-#alert {
-  background: red;
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
   color: white;
-  font-weight: bold;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+video {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 800px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
