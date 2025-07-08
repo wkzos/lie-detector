@@ -1,0 +1,10 @@
+.hidden {
+  display: none;
+}
+#alert {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+}
