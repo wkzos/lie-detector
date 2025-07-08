@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>이미지 변경 감지 시스템</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>이미지 감지 시스템</title>
+  <style>
+    body { text-align: center; margin-top: 40px; font-family: sans-serif; }
+    video { width: 80%; border: 1px solid gray; }
+    button { padding: 10px 20px; margin-top: 20px; }
+  </style>
 </head>
 <body>
-  <h1>이미지 변경 감지</h1>
-  <img id="targetImage" src="원래_이미지_URL.png" alt="감시 이미지">
-  <div id="alert" class="hidden">⚠️ 이미지가 변경되었습니다!</div>
+  <h1>공유 화면에서 이미지 감지</h1>
+  <button id="shareBtn">화면 공유 시작</button><br/>
+  <video id="screenVideo" autoplay muted playsinline></video>
+
   <script src="script.js"></script>
 </body>
 </html>
